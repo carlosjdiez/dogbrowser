@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minWidth="0.0" xmlns:fx="http://javafx.com/fxml">
+    <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefWidth="597.0">
+            <children>
+                <!-- ListView para mostrar las imágenes -->
+                <ListView fx:id="breedListView" prefHeight="200.0" prefWidth="536.0" />
+
+                <!-- ImageView para mostrar la imagen de la raza -->
+                <ImageView fx:id="breedImageView" fitHeight="300.0" fitWidth="536.0" layoutY="220.0" />
+            </children>
+        </AnchorPane>
+    </content>
+</ScrollPane>
