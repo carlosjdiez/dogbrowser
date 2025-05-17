@@ -41,6 +41,6 @@ public class DogService {
     }
 
     public Observable<BreedImagesResponse> getImagesByBreed(String breed) {
-        return dogAPI.getImagesByBreed(breed);
+        return dogAPI.getImagesByBreed(breed); // Aqui llamo a la API y me devuelve las URLs de las imagenes
     }
 }

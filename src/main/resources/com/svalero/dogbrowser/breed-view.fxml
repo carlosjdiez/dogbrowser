@@ -8,8 +8,11 @@
     <content>
         <AnchorPane minHeight="0.0" minWidth="0.0" prefWidth="597.0">
             <children>
+                <!-- Campo de texto para búsqueda -->
+                <TextField fx:id="searchFilterInput" promptText="Filtrar imágenes..." layoutY="10.0" prefWidth="536.0"/>
+
                 <!-- ListView para mostrar las imágenes -->
-                <ListView fx:id="breedListView" prefHeight="200.0" prefWidth="536.0" />
+                <ListView fx:id="breedListView" prefHeight="200.0" prefWidth="536.0" layoutY="40.0"/>
 
                 <!-- ImageView para mostrar la imagen de la raza -->
                 <ImageView fx:id="breedImageView" fitHeight="300.0" fitWidth="536.0" layoutY="220.0" />
